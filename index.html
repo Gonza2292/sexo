@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Valentin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <div class="padre">
+      <button id="playBtn" style="background: none; border: none; width: 40px;  margin-right: 3px;"><i class="fa fa-play" style="font-size: 20px;"></i></button>
+      <button id="pauseBtn" style="background: none; border: none; width: 40px;  margin-left: 3px;"><i class="fa fa-pause" style="font-size: 20px;"></i></button>
+    </div>
+    <div id="message">
+      <div style="margin-right: 50px;">
+        <h1>Casi me da un infato!!</h1>
+        <h1>Todu ben</h1>
+      </div>
+      <video width="250" height="240" autoplay loop muted>
+        <source src="./assets/aceptoo.mp4" type="video/mp4">
+      </video>      
+    </div>
+    <div id="valentineImage" style="display: inline-block; background: linear-gradient(to right, rgb(255, 169, 71) 0%, gold 100%); border-radius: 4px; margin: 20px;">
+      <img id="valentineImg" src="./assets/bemyvalentine.jpg" width="250" style="margin:4px" alt="Dino Love" style="display: block;">
+    </div> 
+    <h1 style="font-family: 'MySimoneta';">¿Quieres ser mi San Valentain?</h1>
+    <div class="options">
+      <button id="yes">Si</button>
+      <button id="no">No</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
